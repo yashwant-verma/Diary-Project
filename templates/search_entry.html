@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Entries</title>
+    <link rel="stylesheet" href="styles_search_entry.css">
+</head>
+<body>
+    <div class="background-image"></div>
+    
+    <div class="container">
+        <h1>Search Diary Entries</h1>
+        <div class="form-container">
+            <h2>Date</h2>
+            <form method="GET" action="/search">
+                <input type="date" name="date" required>
+                <input type="submit" value="Search">
+            </form>
+            
+            <div id="results">
+                {{ entries_html }}
+            </div>
+        </div>
+    </div>
+</body>
+</html>

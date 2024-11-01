@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Entry</title>
+    <link rel="stylesheet" href="styles_add_entry.css">
+</head>
+<body>
+    <div class="background-image"></div>
+    <div class="container">
+        <h1>Add a New Entry</h1>
+        <div class="form-container">
+            <h2>Date</h2>
+            <form action="/add" method="POST">
+                <input type="date" id="date" name="date" required>
+                <h2>Write your content here...</h2>
+                <textarea id="entry" name="entry" required></textarea>
+                <input type="submit" value="Add Entry">
+            </form>
+        </div>
+    </div>
+</body>
+</html>
