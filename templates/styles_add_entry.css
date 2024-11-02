@@ -19,18 +19,18 @@ body, html {
 .container {
     position: relative;
     text-align: center;
-    padding: 20px; 
+    padding: 50px; 
     background-color: rgba(255, 255, 255, 0); 
 }
 
 h1 {
-    color: #4a90e2;
-    font-size: 8ch;
+    color: #021933;
+    font-size: 6ch;
 }
 
 .form-container {
     text-align: left;
-    padding: 20px;
+    padding: 40px;
     background-color: rgba(255, 255, 255, 0.8);
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -39,7 +39,7 @@ h1 {
 
 h2 {
     font-size: 1.5em;
-    color: #4a90e2;
+    color: #011e3e;
 }
 
 form {
@@ -50,7 +50,7 @@ form {
 
 input[type="date"], textarea {
     width: 97%;
-    padding: 15px;
+    padding: 17px;
     border: 1px solid #ccc;
     margin-bottom: 20px;
     border-radius: 5px;
@@ -58,11 +58,11 @@ input[type="date"], textarea {
 }
 
 textarea {
-    height: 200px;
+    height: 170px;
 }
 
 input[type="submit"] {
-    background-color: #4a90e2;
+    background-color: #7299c5;
     color: white;
     border: none;
     padding: 15px;
